@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* nice readable type */
+  body {
+    @apply antialiased text-gray-900 bg-white;
+  }
+  h1,h2,h3,h4 {
+    @apply font-sans;
+  }
+  p {
+    @apply leading-relaxed;
+  }
